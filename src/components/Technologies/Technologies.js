@@ -19,7 +19,7 @@ const Technologies = () =>  (
     <SectionDivider />
     <SectionTitle>Tecnologias</SectionTitle>
     <SectionText>
-      Venho trabalhando com....
+      Tenho mais de 5 anos de experiência em programação, trabalhando principalmente com .Net Framework. Mas também tenho experiência com outras tecnologias.
     </SectionText>
     <List>
       <ListItem>
@@ -28,7 +28,7 @@ const Technologies = () =>  (
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            React.js
+            VueJs e React-native
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -38,7 +38,7 @@ const Technologies = () =>  (
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            Node and Database
+            .Net Core e Node
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -48,7 +48,7 @@ const Technologies = () =>  (
           <ListTitle>UI/UX</ListTitle>
           <ListParagraph>
             Experiência com <br />
-            Ferramentas como Figma
+            Ferramentas como Figma e Adobe XD
           </ListParagraph>
         </ListContainer>
       </ListItem>

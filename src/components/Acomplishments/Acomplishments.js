@@ -18,7 +18,7 @@ const Acomplishments = () => (
         <Box key={index}>
           <BoxNum>{card.number}+</BoxNum>
           <BoxText>{card.text}</BoxText>
-        </Box>
+        </Box> 
       ))}
     </Boxes>
   </Section>

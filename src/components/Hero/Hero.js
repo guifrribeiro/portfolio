@@ -12,9 +12,11 @@ const Hero = (props) => (
         Meu Portfólio Pessoal
       </SectionTitle>
       <SectionText>
-        Texto em desenvolvimento
+        Bacharel em Ciências da Computação pela Universidade Federal de Uberlândia. <br />
+        Cursando Pós em Big Data e Projetos de Cloud Computing. <br />
+        Desenvolvedor Fullstack na Landix Sistemas.
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}>Aprenda Mais</Button>
+      {/* <Button onClick={() => window.location = "https://google.com"}>Aprenda Mais</Button> */}
     </LeftSection>
   </Section>
 );

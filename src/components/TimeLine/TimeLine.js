@@ -61,7 +61,8 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>Sobre mim</SectionTitle>
       <SectionText>
-        Eu iniciei minha carreira...
+        Iniciei minha carreira como estagiário de desenvolvimento no Centro de Estudos, Pesquisas e Projetos socio-econômicos (CEPES), na UFU, em 2013. Depois disso entrei na Landix Sistemas,
+        construindo uma carreira sólida como Desenvolvedor Fullstack.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
@@ -96,11 +97,11 @@ const Timeline = () => {
                         x2="208"
                         y2="0.500295"
                         gradientUnits="userSpaceOnUse">
-                        <stop stop-color="white" />
+                        <stop stopColor="white" />
                         <stop
                           offset="0.79478"
-                          stop-color="white"
-                          stop-opacity="0"
+                          stopColor="white"
+                          stopOpacity="0"
                         />
                       </linearGradient>
                     </defs>
@@ -125,7 +126,7 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
+      {/* <SectionDivider /> */}
     </Section>
   );
 };
